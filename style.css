@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/IMG/fon.jpg); 
+    background-size: cover;
+    color: white;
+    margin-top: 3rem;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 0 3rem 0 white;
+}
+
+.navbar a {
+    display: flex;
+    float: left;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar-link:hover {
+    background-color: #14f968cc;
+    transition: 1s ease;
+
+}
+
+.navbar ul {
+    display: flex;
+    align-content: center;
+    background-color: black;
+    width: 100%;
+    color: #14f968cc;
+    width: 100%;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar-name {
+    flex-grow: 1;
+    margin-left: 5rem;
+}
+
+.navbar-toggle {
+    display: none;
+}
+.navbar-link a{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+@media (max-width: 700px) {
+    .navbar ul {
+        flex-wrap: wrap;
+    }
+
+    .navbar-link {
+         display: none;
+         align-content: center;
+         width: 100%;
+         text-align: center;
+
+    }
+    
+    .navbar-toggle {
+        display: block;
+    }
+    
+    .active {
+        display: block;
+    }
+}
+
+.navbar img {
+    height: 2rem;
+    box-shadow: 0 0 0.5rem 0 #14f968cc;
+
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 1rem;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+    margin-top: 3%;
+}
+
+
+#maintext {
+    background-color: #40434E;
+    color: wheat;
+    margin: 2rem 5rem;
+    padding: 1rem;
+    border: 5px solid black;
+}
+
+.martialarts img {
+    margin: 1rem;
+    border-radius: 100px;
+}
+
+.martialarts a {
+    background-color: black;
+    text-decoration: none;
+    color: #14f968cc;
+    border: 1px #14f968cc solid;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.martialarts a:hover {
+    background-color: rgb(169, 169, 169);
+    transition: 1s ease;
+}
+
+.martialarts {
+text-align: center;
+}
+
+h3 {
+color: wheat;
+}
+
+
+
+.container {
+    width: 75%;
+    padding: 1rem;
+    margin: 75px auto;
+    border: 2px dashed black;
+    border-radius: 20px;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.container img {
+    width: 15rem;
+    height: 25rem;
+}
+
+#contact-form {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+#contact-form button {
+    margin: 0.5rem;
+}
+fieldset {
+    padding: 1rem 5rem;
+}
+
+.footer {
+    margin: 0 auto;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    color: white;
+    padding: 1rem;
+    background-color: rgba(128, 128, 128, 0.383);
+}
+
+.footer li {
+    float: left;
+    list-style-type: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+#bodybjj {
+    background-image: url(/IMG/bjj.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    text-align: center;
+}
+  
+#containerbjj {
+    width: 75%;
+    padding: 1rem;
+    margin: 7rem auto 1rem;
+    border: 2px dashed black;
+    border-radius: 20px;
+    background-color: #40434E;
+}
+
+#bodymt {
+    background-image: url(/IMG/muaythai.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    text-align: center;
+}
+  
+#containermt {
+    width: 75%;
+    padding: 1rem;
+    margin: 7rem auto 1rem;
+    border: 2px dashed white;
+    border-radius: 20px;
+    background-color: #40434E;
+}
+
+#bodykm {
+    background-image: url(/IMG/kravmaga.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    text-align: center;
+}
+  
+#containerkm {
+    width: 75%;
+    padding: 1rem;
+    margin: 7rem auto 1rem;
+    border: 2px dashed black;
+    border-radius: 20px;
+    background-color: #40434E;
+}
